@@ -1,0 +1,18 @@
+@import '../abstracts/variables';
+.card {
+  background-color: $color-card;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+}
+.contenedorPersonaje {
+background: linear-gradient(15deg,$color-darkOrange 46%, $color-lightOrange 61%);
+}
+.nombre, p{
+  color: $color-lightOrange;
+  font-weight: bold;
+}
+span{
+  color: $color-text;
+  font-weight: normal;
+}

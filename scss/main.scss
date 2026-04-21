@@ -1,0 +1,38 @@
+// use abstracts
+@use 'abstracts/variables';
+@use 'abstracts/functions';
+@use 'abstracts/mixins';
+@use 'abstracts/placeholders';
+
+// use base
+@use 'base/reset';
+@use 'base/typography';
+@use 'base/utilities';
+
+// use components
+@use 'components/buttons';
+@use 'components/carousel';
+@use 'components/cover';
+@use 'components/dropdown';
+@use 'components/card';
+
+// use layout
+@use 'layout/navigation';
+@use 'layout/grid';
+@use 'layout/header';
+@use 'layout/footer';
+@use 'layout/sidebar';
+@use 'layout/forms';
+@use 'layout/body';
+
+// use pages
+@use 'pages/home';
+@use 'pages/contact';
+
+// use themes
+@use 'themes/theme';
+@use 'themes/admin';
+
+// use vendors
+@use 'vendors/bootstrap';
+@use 'vendors/jquery-ui';
