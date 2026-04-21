@@ -1,0 +1,5 @@
+@mixin escaladoBrillante {
+    filter: brightness(1.2);
+    transform: scale(1.4);
+    transition: all 0.3s ease;
+}

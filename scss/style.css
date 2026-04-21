@@ -1,3 +1,9 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 .contenedorPersonaje {
   width: 98%;
   height: 95%;
@@ -52,6 +58,40 @@ span {
   grid-template-columns: repeat(4, 1fr);
   gap: 20px;
   padding: 20px;
+}
+
+footer a img {
+  width: 30px;
+  height: 30px;
+  margin: 0 10px;
+}
+
+footer a img:hover {
+  filter: brightness(1.2);
+  transform: scale(1.4);
+  transition: all 0.3s ease;
+}
+
+footer svg {
+  width: 100px;
+  height: 30px;
+  margin: 0 10px;
+}
+
+footer svg:hover {
+  filter: brightness(1.2);
+  transform: scale(1.4);
+  transition: all 0.3s ease;
+}
+
+footer {
+  background: rgb(218, 120, 8);
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 0;
+  gap: 20px;
 }
 
 body {
